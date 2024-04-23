@@ -9,12 +9,12 @@ const sigOptions = {
 const signale = new Signale(sigOptions);
 
 const dbConfig = {
-    host: "database-1.c5yscaec24bq.us-east-1.rds.amazonaws.com",
-    user: "admin",
-    database: "jesusDB",
-    password: "michi123",
-    connectionLimit: 10,
-}
+  host: "database-1.cpgcg2mw0e6g.us-east-1.rds.amazonaws.com",
+  user: "admin",
+  database: "jesusDB",
+  password: "michi123",
+  connectionLimit: 10,
+};
 
 const pool = mysql.createPool(dbConfig)
 
